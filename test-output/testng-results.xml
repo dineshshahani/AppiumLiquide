@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-01T22:02:35 IST" name="Default suite" finished-at="2025-03-01T22:03:26 IST" duration-ms="50941">
+  <suite started-at="2025-03-02T01:42:30 IST" name="Default suite" finished-at="2025-03-02T01:43:47 IST" duration-ms="76496">
     <groups>
     </groups>
-    <test started-at="2025-03-01T22:02:35 IST" name="Default test" finished-at="2025-03-01T22:03:26 IST" duration-ms="50941">
+    <test started-at="2025-03-02T01:42:30 IST" name="Default test" finished-at="2025-03-02T01:43:47 IST" duration-ms="76496">
       <class name="AndoidAutomation.Liquide.Login">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:AndoidAutomation.Liquide.Login@6ad82709]" started-at="2025-03-01T22:02:35 IST" name="ConfigureAppium" finished-at="2025-03-01T22:02:50 IST" duration-ms="14467" status="PASS">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:AndoidAutomation.Liquide.Login@77f1baf5]" started-at="2025-03-02T01:42:30 IST" name="ConfigureAppium" finished-at="2025-03-02T01:42:54 IST" duration-ms="23137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="LoginTest()[pri:0, instance:AndoidAutomation.Liquide.Login@6ad82709]" started-at="2025-03-01T22:02:50 IST" name="LoginTest" finished-at="2025-03-01T22:03:26 IST" duration-ms="36391" status="PASS">
+        <test-method signature="LoginTest_Invalid()[pri:0, instance:AndoidAutomation.Liquide.Login@77f1baf5]" started-at="2025-03-02T01:42:54 IST" name="LoginTest_Invalid" finished-at="2025-03-02T01:43:30 IST" duration-ms="36880" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:AndoidAutomation.Liquide.Login@6ad82709]" started-at="2025-03-01T22:03:26 IST" name="TearDown" finished-at="2025-03-01T22:03:26 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- LoginTest_Invalid -->
+        <test-method signature="LoginTest_Valid()[pri:0, instance:AndoidAutomation.Liquide.Login@77f1baf5]" started-at="2025-03-02T01:43:31 IST" name="LoginTest_Valid" finished-at="2025-03-02T01:43:47 IST" duration-ms="16366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest_Valid -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:AndoidAutomation.Liquide.Login@77f1baf5]" started-at="2025-03-02T01:43:47 IST" name="TearDown" finished-at="2025-03-02T01:43:47 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
