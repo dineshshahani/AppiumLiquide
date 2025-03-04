@@ -1,7 +1,11 @@
 package AndoidAutomation.Liquide.pageObjects.android;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -14,7 +18,8 @@ public class EnterPhone {
 		this.driver = driver;
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
-	
+	WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+
 	@AndroidFindBy(xpath="//android.widget.EditText[@text='000 000 0000']")
 	private WebElement phonenumField;
 	
@@ -31,6 +36,7 @@ public class EnterPhone {
 	
 	public void tapIAcceptCheckbox()
 	{
+		wait.until(ExpectedConditions.visibilityOf(checkboxTermsandConditions));
 		checkboxTermsandConditions.click();
 	}
 	
