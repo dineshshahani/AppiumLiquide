@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-05T02:27:46 IST" name="Default suite" finished-at="2025-03-05T02:30:36 IST" duration-ms="170056">
+  <suite started-at="2025-03-06T05:53:47 IST" name="Default suite" finished-at="2025-03-06T05:56:12 IST" duration-ms="145143">
     <groups>
     </groups>
-    <test started-at="2025-03-05T02:27:46 IST" name="Default test" finished-at="2025-03-05T02:30:36 IST" duration-ms="170056">
-      <class name="AndoidAutomation.Liquide.AskLimo">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:AndoidAutomation.Liquide.AskLimo@1b7cc17c]" started-at="2025-03-05T02:27:46 IST" name="ConfigureAppium" finished-at="2025-03-05T02:28:11 IST" duration-ms="24100" status="PASS">
+    <test started-at="2025-03-06T05:53:47 IST" name="Default test" finished-at="2025-03-06T05:56:12 IST" duration-ms="145143">
+      <class name="AndoidAutomation.Liquide.SetAlert">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:AndoidAutomation.Liquide.SetAlert@1b7cc17c]" started-at="2025-03-06T05:53:47 IST" name="ConfigureAppium" finished-at="2025-03-06T05:53:59 IST" duration-ms="11960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="askLimo()[pri:0, instance:AndoidAutomation.Liquide.AskLimo@1b7cc17c]" started-at="2025-03-05T02:28:11 IST" name="askLimo" finished-at="2025-03-05T02:30:35 IST" duration-ms="144888" status="PASS">
+        <test-method signature="SetStockAlert()[pri:0, instance:AndoidAutomation.Liquide.SetAlert@1b7cc17c]" started-at="2025-03-06T05:53:59 IST" name="SetStockAlert" finished-at="2025-03-06T05:56:11 IST" duration-ms="131874" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- askLimo -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:AndoidAutomation.Liquide.AskLimo@1b7cc17c]" started-at="2025-03-05T02:30:35 IST" name="TearDown" finished-at="2025-03-05T02:30:36 IST" duration-ms="996" status="PASS">
+        </test-method> <!-- SetStockAlert -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:AndoidAutomation.Liquide.SetAlert@1b7cc17c]" started-at="2025-03-06T05:56:11 IST" name="TearDown" finished-at="2025-03-06T05:56:12 IST" duration-ms="1269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- AndoidAutomation.Liquide.AskLimo -->
+      </class> <!-- AndoidAutomation.Liquide.SetAlert -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

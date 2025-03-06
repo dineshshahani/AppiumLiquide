@@ -14,10 +14,12 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 public class Limo {
 	
 	AndroidDriver driver;
+	WebDriverWait wait;
 	public Limo(AndroidDriver driver) {
 		this.driver = driver;
+		this.wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
-
+		
 	}
 	
 	@AndroidFindBy(xpath="//android.view.ViewGroup[starts-with(@content-desc, 'Ask about')]")
@@ -35,7 +37,6 @@ public class Limo {
 	
 	public void askLimo(String query) throws InterruptedException
 	{
-		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 		Thread.sleep(1000);
 		btnAskAbout.click();
 		Thread.sleep(1000);
@@ -48,6 +49,6 @@ public class Limo {
 		String actualMessage = txtP1.getText();
 		Assert.assertEquals(actualMessage, "Here are some long-term stock recommendations:");
 
-		
 	}
+	
 }

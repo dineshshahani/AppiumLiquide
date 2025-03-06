@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AndoidAutomation.Liquide.AskLimo">
+      <class name="AndoidAutomation.Liquide.SetAlert">
         <methods>
           <include name="ConfigureAppium"/>
-          <include name="askLimo"/>
+          <include name="SetStockAlert"/>
           <include name="TearDown"/>
         </methods>
-      </class> <!-- AndoidAutomation.Liquide.AskLimo -->
+      </class> <!-- AndoidAutomation.Liquide.SetAlert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
