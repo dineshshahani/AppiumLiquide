@@ -1,25 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-06T05:53:47 IST" name="Default suite" finished-at="2025-03-06T05:56:12 IST" duration-ms="145143">
+  <suite started-at="2025-03-10T17:47:19 IST" name="Liquide Automation" finished-at="2025-03-10T17:58:45 IST" duration-ms="685917">
     <groups>
     </groups>
-    <test started-at="2025-03-06T05:53:47 IST" name="Default test" finished-at="2025-03-06T05:56:12 IST" duration-ms="145143">
-      <class name="AndoidAutomation.Liquide.SetAlert">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:AndoidAutomation.Liquide.SetAlert@1b7cc17c]" started-at="2025-03-06T05:53:47 IST" name="ConfigureAppium" finished-at="2025-03-06T05:53:59 IST" duration-ms="11960" status="PASS">
+    <test started-at="2025-03-10T17:47:19 IST" name="Functional Test" finished-at="2025-03-10T17:58:45 IST" duration-ms="685917">
+      <class name="AndoidAutomation.Liquide.EditProfile">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:AndoidAutomation.Liquide.EditProfile@1d9bec4d]" started-at="2025-03-10T17:53:34 IST" name="ConfigureAppium" finished-at="2025-03-10T17:53:43 IST" duration-ms="9310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="SetStockAlert()[pri:0, instance:AndoidAutomation.Liquide.SetAlert@1b7cc17c]" started-at="2025-03-06T05:53:59 IST" name="SetStockAlert" finished-at="2025-03-06T05:56:11 IST" duration-ms="131874" status="PASS">
+        <test-method signature="editEmail()[pri:0, instance:AndoidAutomation.Liquide.EditProfile@1d9bec4d]" started-at="2025-03-10T17:53:43 IST" name="editEmail" finished-at="2025-03-10T17:56:11 IST" duration-ms="147843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editEmail -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:AndoidAutomation.Liquide.EditProfile@1d9bec4d]" started-at="2025-03-10T17:56:11 IST" name="TearDown" finished-at="2025-03-10T17:56:12 IST" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- AndoidAutomation.Liquide.EditProfile -->
+      <class name="AndoidAutomation.Liquide.AskLimo">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:AndoidAutomation.Liquide.AskLimo@4ef27d66]" started-at="2025-03-10T17:48:37 IST" name="ConfigureAppium" finished-at="2025-03-10T17:48:48 IST" duration-ms="11242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="askLimo()[pri:0, instance:AndoidAutomation.Liquide.AskLimo@4ef27d66]" started-at="2025-03-10T17:48:48 IST" name="askLimo" finished-at="2025-03-10T17:51:14 IST" duration-ms="145749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- askLimo -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:AndoidAutomation.Liquide.AskLimo@4ef27d66]" started-at="2025-03-10T17:51:14 IST" name="TearDown" finished-at="2025-03-10T17:51:15 IST" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- AndoidAutomation.Liquide.AskLimo -->
+      <class name="AndoidAutomation.Liquide.AddCoins">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:AndoidAutomation.Liquide.AddCoins@5c48c0c0]" started-at="2025-03-10T17:56:12 IST" name="ConfigureAppium" finished-at="2025-03-10T17:56:22 IST" duration-ms="9843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="addCoins()[pri:0, instance:AndoidAutomation.Liquide.AddCoins@5c48c0c0]" started-at="2025-03-10T17:56:22 IST" name="addCoins" finished-at="2025-03-10T17:58:44 IST" duration-ms="141633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCoins -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:AndoidAutomation.Liquide.AddCoins@5c48c0c0]" started-at="2025-03-10T17:58:44 IST" name="TearDown" finished-at="2025-03-10T17:58:45 IST" duration-ms="1117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- AndoidAutomation.Liquide.AddCoins -->
+      <class name="AndoidAutomation.Liquide.Login">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:AndoidAutomation.Liquide.Login@6f80fafe]" started-at="2025-03-10T17:47:19 IST" name="ConfigureAppium" finished-at="2025-03-10T17:47:31 IST" duration-ms="12491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="loginTest_InvalidOTP()[pri:0, instance:AndoidAutomation.Liquide.Login@6f80fafe]" started-at="2025-03-10T17:47:31 IST" name="loginTest_InvalidOTP" finished-at="2025-03-10T17:48:11 IST" duration-ms="39803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_InvalidOTP -->
+        <test-method signature="loginTest_ValidOTP()[pri:0, instance:AndoidAutomation.Liquide.Login@6f80fafe]" started-at="2025-03-10T17:48:11 IST" name="loginTest_ValidOTP" finished-at="2025-03-10T17:48:36 IST" duration-ms="24818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_ValidOTP -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:AndoidAutomation.Liquide.Login@6f80fafe]" started-at="2025-03-10T17:48:36 IST" name="TearDown" finished-at="2025-03-10T17:48:37 IST" duration-ms="875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- AndoidAutomation.Liquide.Login -->
+      <class name="AndoidAutomation.Liquide.SetAlert">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:AndoidAutomation.Liquide.SetAlert@362a019c]" started-at="2025-03-10T17:51:15 IST" name="ConfigureAppium" finished-at="2025-03-10T17:51:24 IST" duration-ms="9775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="SetStockAlert()[pri:0, instance:AndoidAutomation.Liquide.SetAlert@362a019c]" started-at="2025-03-10T17:51:24 IST" name="SetStockAlert" finished-at="2025-03-10T17:53:33 IST" duration-ms="128754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetStockAlert -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:AndoidAutomation.Liquide.SetAlert@1b7cc17c]" started-at="2025-03-06T05:56:11 IST" name="TearDown" finished-at="2025-03-06T05:56:12 IST" duration-ms="1269" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:AndoidAutomation.Liquide.SetAlert@362a019c]" started-at="2025-03-10T17:53:33 IST" name="TearDown" finished-at="2025-03-10T17:53:34 IST" duration-ms="805" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- AndoidAutomation.Liquide.SetAlert -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Functional Test -->
+  </suite> <!-- Liquide Automation -->
 </testng-results>

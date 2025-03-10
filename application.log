@@ -1,0 +1,21 @@
+2025-03-10 17:41:00 [main] INFO  BaseTest - Starting Appium server...
+2025-03-10 17:41:00 [main] INFO  BaseTest - Appium server started successfully.
+2025-03-10 17:41:00 [main] INFO  BaseTest - Initializing Appium driver...
+2025-03-10 17:41:11 [main] INFO  BaseTest - Appium driver initialized successfully.
+2025-03-10 17:41:11 [main] INFO  Login - -----Starting loginTest_InvalidOTP------
+2025-03-10 17:41:12 [main] INFO  Login - Allow permission and Get Started.
+2025-03-10 17:41:23 [main] INFO  Login - Entering phone number: 9352897598
+2025-03-10 17:41:27 [main] INFO  Login - Clicking on checkbox Accept Terms & Conditions.
+2025-03-10 17:41:28 [main] INFO  Login - Clicking on proceed
+2025-03-10 17:41:34 [main] INFO  Login - Entering invalid OTP: 111111
+2025-03-10 17:41:39 [main] INFO  Login - Verifying alert message: Invalid OTP
+2025-03-10 17:41:41 [main] INFO  Login - Invalid OTP alert dismissed.
+2025-03-10 17:41:41 [main] INFO  Login - -----Test loginTest_InvalidOTP completed-----
+2025-03-10 17:41:41 [main] INFO  Login - Clearing invalid OTP
+2025-03-10 17:41:48 [main] INFO  Login - Entering valid OTP: 123456
+2025-03-10 17:41:54 [main] INFO  Login - Skip notification sheet
+2025-03-10 17:42:04 [main] INFO  Login - -----Test loginTest_ValidOTP completed-----
+2025-03-10 17:42:04 [main] INFO  BaseTest - Stopping Appium driver...
+2025-03-10 17:42:05 [main] INFO  BaseTest - Driver quit successfully.
+2025-03-10 17:42:05 [main] INFO  BaseTest - Stopping Appium server...
+2025-03-10 17:42:05 [main] INFO  BaseTest - Appium server stopped.

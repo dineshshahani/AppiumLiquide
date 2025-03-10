@@ -25,10 +25,19 @@ public class MenuPage {
 	@AndroidFindBy(xpath="//android.view.ViewGroup[contains(@content-desc, 'Stock alerts')]")
 	private WebElement btnStockAlert;
 	
+	@AndroidFindBy(xpath="//android.view.ViewGroup[contains(@content-desc, 'Coins')]")
+	private WebElement btnCoins;
+	
 	public void tapStockAlerts() throws InterruptedException
 	{
 		wait.until(ExpectedConditions.elementToBeClickable(btnStockAlert));
 		btnStockAlert.click();
+	}
+	
+	public void tapCoins() throws InterruptedException
+	{
+		wait.until(ExpectedConditions.elementToBeClickable(btnCoins));
+		btnCoins.click();
 	}
 	
 	

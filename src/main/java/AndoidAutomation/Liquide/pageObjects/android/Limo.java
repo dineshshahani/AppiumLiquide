@@ -22,13 +22,13 @@ public class Limo {
 		
 	}
 	
-	@AndroidFindBy(xpath="//android.view.ViewGroup[starts-with(@content-desc, 'Ask about')]")
+	@AndroidFindBy(xpath="//android.widget.TextView[@text='Ask about ']")
 	private WebElement btnAskAbout;
 	
 	@AndroidFindBy(xpath="//android.widget.EditText[@text='Ask me about the Stock Market...']")
 	private WebElement inputBoxAsk;
 	
-	@AndroidFindBy(xpath="(//android.view.ViewGroup[@class=\"android.view.ViewGroup\" and @bounds=\"[882,1295][992,1406]\"])[1]")
+	@AndroidFindBy(xpath="//android.view.ViewGroup[@content-desc='']")
 	private WebElement btnSend;
 	
 	@AndroidFindBy(xpath="(//android.widget.TextView[@resource-id=\"span\"])[1]")

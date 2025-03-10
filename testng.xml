@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Liquide Automation">
+<listeners>
+<listener class-name="AndroidAutomation.Liquide.TestUtils.Listeners"/>
+</listeners>
+  <test thread-count="5" name="Functional Test">
+    <classes>
+      <class name="AndoidAutomation.Liquide.Login"/>
+      <class name="AndoidAutomation.Liquide.AskLimo"/>
+      <class name="AndoidAutomation.Liquide.SetAlert"/>
+      <class name="AndoidAutomation.Liquide.EditProfile"/>
+      <class name="AndoidAutomation.Liquide.AddCoins"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

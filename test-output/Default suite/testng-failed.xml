@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AndoidAutomation.Liquide.SetAlert">
+      <class name="AndoidAutomation.Liquide.Login">
         <methods>
-          <include name="ConfigureAppium"/>
-          <include name="SetStockAlert"/>
+          <include name="loginTest_InvalidOTP"/>
+          <include name="loginTest_ValidOTP"/>
           <include name="TearDown"/>
+          <include name="ConfigureAppium"/>
         </methods>
-      </class> <!-- AndoidAutomation.Liquide.SetAlert -->
+      </class> <!-- AndoidAutomation.Liquide.Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

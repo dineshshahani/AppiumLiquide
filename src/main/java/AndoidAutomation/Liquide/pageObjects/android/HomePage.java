@@ -4,7 +4,6 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.appium.java_client.android.AndroidDriver;
@@ -85,7 +84,7 @@ public class HomePage {
 	}
 	public void tapMenu() throws InterruptedException
 	{
-		wait.until(ExpectedConditions.visibilityOf(btnMenu));
+		wait.until(driver -> btnMenu.isDisplayed());
 		btnMenu.click();
 	}
 	
