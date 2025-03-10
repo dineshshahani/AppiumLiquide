@@ -108,12 +108,6 @@ Before setting up and running the project, ensure you have the following install
 
 - Open **TestNG XML file** (`src/test/resources/testng.xml`).
 - Right-click and select **Run As → TestNG Suite** in Eclipse/IntelliJ.
-- To run using Maven:
-  - Open Terminal/Command Prompt in the project directory.
-  - Run:
-    ```sh
-    mvn test
-    ```
 
 ## Functionalities Tested
 
@@ -187,7 +181,7 @@ After test execution:
 
 - **Extent Test Reports:** Available in  `reports/index.html`
 - reports folder also includes the Failed test cases screenshots.
-- **Logs:** Stored in `logs/appium.log`
+- **Logs:** Stored in `logs/application.log`
 
 This setup ensures an efficient test automation framework with Appium, TestNG, Log4j2 logging, and Extent Reports for detailed reporting. Feel free to modify configurations as needed for your project.
 
